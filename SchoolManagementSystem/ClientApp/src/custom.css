@@ -1,0 +1,357 @@
+/* Provide sufficient contrast against white background */
+@import url(./App.css);
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.container {
+  width: 100%;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px !important;
+}
+.homeImage{
+  width:100%;height:100%;top:0;left:0;z-index:-5000;
+}
+.d-sm-inline-flex.flex-sm-row-reverse.collapse.navbar-collapse{
+  max-width: 1660px !important;
+}
+.registerHeader{
+  color: plum;
+}
+.card{
+  position: absolute;
+  top: 120px;
+}
+.card-header{
+  opacity: 0.5;
+}
+#date-picker-dialog{
+  padding: 10px;
+}
+.MuiFormControl-marginNormal{
+  margin-bottom:auto !important;
+  margin-top: auto !important;
+}
+.MuiInputLabel-formControl{
+  left: 10px !important;
+}
+.options{
+  margin-left: 10px;
+}
+.btnSearch{
+  width: 100%;
+}
+.txtRoom{
+  color: #1b6ec2;
+  text-align: center;
+}
+.typeOfRoom{
+  margin: 40px;
+}
+.charges{
+  padding-top: 30px;;
+}
+.backgroundImage{
+  height: 800px;
+  margin-bottom:20px;
+}
+#standard{
+  position: absolute;
+  left: 450px;
+  top: 800px;
+  background-color: #eceae6;
+}
+.header-color{
+  color: white;
+  position: absolute;
+  left: 450px;
+  top: 700px;
+  margin: 0;
+  font-size: 50px;
+  line-height: normal;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 5;
+    white-space: nowrap;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    font-family: Lato;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    border-width: 0px;
+    margin: 0px;
+    padding: 7px 15px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+#content{
+  color: #3e4001;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fixedImage{
+  width: 1858.62px;
+  height: 969px;
+  transform: translate3d(-303.811px
+px
+, -492px, 0px);
+}
+.box1{
+  background-color: rgba(0,0,0,.5);
+    padding: 7px;
+    border: 1px solid #393939;
+    margin-bottom: 40px;
+    top: 1050px;
+    right: 30px;
+    width: 58%; 
+    position: absolute;
+}
+.box{
+  background-color: rgba(0,0,0,.5);
+  padding: 11px;
+  border: 1px solid #393939;
+  color: #fdffbd;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 200px;
+  margin-left: 0%;
+  width: 17%!important;
+  margin-right: 1%;
+}
+.box3{
+    top: 1200px;
+    right: 10px;
+    position: absolute;
+}
+.box-title{
+  background-color: #3e4001 !important;
+  color:#fdffbd;;
+  margin: -7px -15px !important;
+  padding: 10px !important;
+  text-align: center !important;
+}
+.ulRoomDetails{
+  color:#fff;
+}
+#location{
+  width: 70px;
+  height: 70px;
+  max-width:100.1%;
+  text-align: center;
+  align-items: center;
+}
+.imageWrapper{
+  margin-bottom:5px;
+}
+.textAlign{
+  text-align: center;
+}
+.box4{
+  top: 1200px;
+  right: 775px;
+  position: absolute;
+}
+.box5{
+  top: 1200px;
+  right: 400px;
+  position: absolute;
+}
+.basicTariff{
+  color:#fdffbd;margin: 5px 0px 0px;
+}
+.box6{
+  background-color: rgba(0,0,0,.5);
+  padding: 11px;
+  width: 58%;
+  text-align: center;
+  top: 1410px;
+  right: 30px;
+  position: absolute;
+}
+.inr{
+  color: white;
+}
+.amenitiesDiv{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  margin: 0px;
+  background-color: #3b6a24;
+  height: 150px;
+  text-align: center;
+  top: 1550px;
+  right: 30px;
+  position: absolute;
+  width: 95%;
+}
+.Amenities{
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.amenitiesColumn{
+  background-color: #3e4001 !important;
+  text-align: center;
+}
+
+.if-border-hide .image_frame:not(.has_border){
+  border-width: 0;
+}
+.image_item{
+  margin-top:25px !important;
+}
+.descriptionAmenties{
+  color: white;
+}
+.mandatoryList{
+  margin-top: 30px;
+  padding-left: 30%;
+}
+.buttomPad{
+  padding-bottom: 20px;
+}
+.movingIcon{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.movingIcon:hover{
+  top: -10px;
+}
+.summary-card{
+  background-color: orange;
+  
+}
+.mainCard{
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+}
+.summary-header{
+  color: #212529;
+  float: left;
+  font-size: 20px;
+  font-family: serif;
+}
+.summary-header-left{
+  float: right;
+}
+.reschedule{
+  color: #212529;
+  float: left;
+  font-size: 20px;
+  font-family: serif;
+}
+.summaryview{
+  padding: 5px;
+  margin-top: 10px;
+}
+.floatRight{
+  float: right;
+}
+.signupCard{
+    position: relative !important;
+    top: auto !important;
+    right: auto!important;
+    width: 70%;
+    margin-left: 100px;
+}
+.space{
+  margin-bottom: 10px;
+}
+.login{
+  background-color: #ff2e00;
+  color: seashell;
+  font-size: 20px;
+  text-align: center;
+}
+.registerHeaderBackground{
+  background-color: orange;
+}
+.payments{
+  position: relative !important;
+}
+.company-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.company-logo-img{
+  height: 100px;
+}
+.company-description{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  width: 50%;
+}
+.company-location{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  width: 45%;
+}
+.sizeOfText{
+  font-size: 13px;
+}
+.navbar-collapse.collapse{
+  display:flex !important
+}
+body{
+  font-size: 13px !important
+}
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before{
+  content:none !important
+}
+.spinner-grow{
+  width: 3rem;
+  height: 3rem;
+}
+.box{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 400 !important;
+  border: 2px solid #000 !important;
+  boxShadow: 24 !important;
+  p: 4 !important;
+  width: 50%!important;
+  height: auto;
+  color: #0366d6;
+  background-color:white
+}
+.width{
+  width: 75%;
+  margin-bottom:10px
+}
